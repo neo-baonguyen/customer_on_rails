@@ -1,0 +1,8 @@
+<div class="tit">
+<h4 class="title is-3">Customers Missing Emails</h4>
+</div>
+
+<div><%= link_to "All Customers", root_path%>  | <%= link_to "Alphabetized Customers", alphabetized_customers_path%></div>
+<div class="columns is-multiline ">
+  <%= render @customers %>
+</div>
